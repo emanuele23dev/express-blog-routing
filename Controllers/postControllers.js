@@ -2,7 +2,7 @@ const posts = require("../db/posts.js");
 
 const index = (req, res) => {
 
-  let html = "<ul>";
+  let html = '<ul style="list-style-type: none;">';
 
   posts.forEach((post) => {
     html += `
